@@ -10,5 +10,6 @@ public class UserInput {
 		String value = scanner.nextLine();
 		
 		return value;
-	}
+	}		
+	
 }
