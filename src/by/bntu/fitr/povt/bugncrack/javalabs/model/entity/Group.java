@@ -71,7 +71,9 @@ public class Group {
 				studentsArray[i] = studentsArray[i + 1];
 			}
 
-			studentsArray[DEFAULT_STUDENT_AMOUNT - 1] = null;
+			if (studentsArray[DEFAULT_STUDENT_AMOUNT - 1] != null) {
+				studentsArray[DEFAULT_STUDENT_AMOUNT - 1] = null;
+			}
 		}
 	}
 
