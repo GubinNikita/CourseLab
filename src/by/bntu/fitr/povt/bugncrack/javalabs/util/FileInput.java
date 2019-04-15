@@ -1,3 +1,4 @@
+// добавить факультет
 package by.bntu.fitr.povt.bugncrack.javalabs.util;
 
 import java.util.Formatter;

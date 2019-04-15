@@ -29,7 +29,7 @@ public class Manager {
 		return avgMark;
 	}
 
-	public static int findYoungest(Student[] array) {
+	public static Student findYoungest(Student[] array) {
 		int minAge = array[0].getAge();
 		int minIndex = 0;
 
@@ -40,10 +40,10 @@ public class Manager {
 			}
 		}
 
-		return minIndex;
+		return array[minIndex];
 	}
 
-	public static int findOldest(Student[] array) {
+	public static Student findOldest(Student[] array) {
 		int maxAge = array[0].getAge();
 		int maxIndex = 0;
 
@@ -54,10 +54,10 @@ public class Manager {
 			}
 		}
 
-		return maxIndex;
+		return array[maxIndex];
 	}
 
-	public static int findStudentWorstMark(Student[] array) {
+	public static Student findStudentWorstMark(Student[] array) {
 		int minMark = array[0].getExamMark();
 		int minIndex = 0;
 
@@ -68,10 +68,10 @@ public class Manager {
 			}
 		}
 
-		return minIndex;
+		return array[minIndex];
 	}
 
-	public static int findStudentBestMark(Student[] array) {
+	public static Student findStudentBestMark(Student[] array) {
 		int maxMark = array[0].getExamMark();
 		int maxIndex = 0;
 
@@ -82,8 +82,7 @@ public class Manager {
 			}
 		}
 
-		return maxIndex;
+		return array[maxIndex];
 	}
-	
-}
 
+}

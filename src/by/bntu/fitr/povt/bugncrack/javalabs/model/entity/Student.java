@@ -26,10 +26,10 @@ public class Student {
 	}
 
 	public Student(Student student) {
-		surname = student.surname;
-		name = student.name;
-		patronymic = student.patronymic;
-		examMark = student.examMark;
+		this.surname = student.surname;
+		this.name = student.name;
+		this.patronymic = student.patronymic;
+		this.examMark = student.examMark;
 	}
 
 	public String getSurname() {

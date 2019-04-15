@@ -10,4 +10,5 @@ public class StudentSortingByMarkComparator implements Comparator<Student> {
 	public int compare(Student student1, Student student2) {
 		return student1.getExamMark() - student2.getExamMark();
 	}
+
 }

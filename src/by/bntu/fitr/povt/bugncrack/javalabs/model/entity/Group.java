@@ -31,8 +31,8 @@ public class Group {
 
 	public void addStudent() {
 		Scanner scanner = new Scanner(System.in);
-
-		if (studentsArray[DEFAULT_STUDENT_AMOUNT - 1] != null) {
+//
+		if (studentsArray[studentsArray.length - 1] != null) {
 			System.out.println("No More Students can be entered");
 		} else {
 

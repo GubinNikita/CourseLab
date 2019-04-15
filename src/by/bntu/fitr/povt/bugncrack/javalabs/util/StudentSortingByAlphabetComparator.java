@@ -5,7 +5,7 @@ import java.util.Comparator;
 import by.bntu.fitr.povt.bugncrack.javalabs.model.entity.Student;
 
 public class StudentSortingByAlphabetComparator implements Comparator<Student> {
-	
+
 	@Override
 	public int compare(Student student1, Student student2) {
 
@@ -26,4 +26,5 @@ public class StudentSortingByAlphabetComparator implements Comparator<Student> {
 
 		return result;
 	}
+
 }
